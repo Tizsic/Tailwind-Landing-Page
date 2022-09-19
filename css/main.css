@@ -591,6 +591,10 @@ video {
   left: 1.5rem;
 }
 
+.right-6 {
+  right: 1.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -958,7 +962,7 @@ body {
 }
 
 .open .hamburger-top {
-  transform: rotate(45deg) translate(6px) translate(6px);
+  transform: rotate(45deg) translateY(6px) translate(6px);
 }
 
 .open .hamburger-middle {
@@ -966,7 +970,7 @@ body {
 }
 
 .open .hamburger-bottom {
-  transform: rotate(-45deg) translate(6px) translate(-6px);
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
 .hover\:text-darkGrayishBlue:hover {
